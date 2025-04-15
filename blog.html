@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="auto">
+    <head>
+        <!-- Include JavaScript for color modes -->
+        <script src="./assets/js/color-modes.js"></script>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>KazRareRes</title>
+
+        <meta
+            name="title"
+            content="
+	Драгоценные металлы, редкоземельные ресурсы, геологическая разведка,
+	добыча полезных ископаемых, минеральные ресурсы, горнодобывающая
+	промышленность"
+        />
+        <meta
+            name="description"
+            content="
+Драгоценные металлы, редкоземельные ресурсы, геологическая разведка,
+добыча полезных ископаемых, минеральные ресурсы, горнодобывающая
+промышленность"
+        />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/logo/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/logo/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/logo/favicon-16x16.png"
+        />
+
+        <!-- Stylesheets -->
+        <link
+            rel="stylesheet"
+            href="./assets/libraries/glide/css/glide.core.min.css"
+        />
+        <link rel="stylesheet" href="./assets/libraries/aos/aos.css" />
+        <link rel="stylesheet" href="./assets/css/main.min.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!-- loader-wrapper -->
+        <div class="loader-wrapper">
+            <div class="spinner-border text-primary p-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <!-- header top -->
+        <header
+            class="navigation position-absolute w-100 bg-body-tertiary shadow border-bottom border-light border-opacity-10 rounded-bottom-3 rounded-bottom-sm-4"
+        >
+            <nav
+                class="navbar navbar-expand-xl"
+                aria-label="Offcanvas navbar large"
+            >
+                <div class="container py-1">
+                    <a href="./index.html" class="navbar-brand">
+                        <h2 style="margin-bottom: 0px">KazRareRes</h2>
+                    </a>
+
+                    <button
+                        class="navbar-toggler ms-auto"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar2"
+                        aria-controls="offcanvasNavbar2"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div
+                        class="offcanvas offcanvas-end border-0 rounded-start-0 rounded-start-sm-4"
+                        tabindex="-1"
+                        id="offcanvasNavbar2"
+                        aria-labelledby="offcanvasNavbar2Label"
+                    >
+                        <div
+                            class="offcanvas-header"
+                            style="padding: 2rem 2rem 1.5rem 2rem"
+                        >
+                            <h5
+                                class="offcanvas-title m-0"
+                                id="offcanvasNavbar2Label"
+                            >
+                                <a class="navbar-brand" href="javascript:;">
+                                    <img
+                                        src="./assets/logo/logo.png"
+                                        height="32"
+                                        alt="logo"
+                                    />
+                                </a>
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close text-body-emphasis"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul
+                                class="navbar-nav align-items-xl-center flex-grow-1 column-gap-4 row-gap-4 row-gap-xl-2"
+                            >
+                                <li class="nav-item ms-xl-auto">
+                                    <a
+                                        href="index.html"
+                                        class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
+                                        aria-current="page"
+                                    >
+                                        Главная
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        href="services.html"
+                                        class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
+                                    >
+                                        Услуги
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        href="about.html"
+                                        class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
+                                    >
+                                        О компании
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        href="blog.html"
+                                        class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
+                                    >
+                                        Блог
+                                    </a>
+                                </li>
+
+                                <li class="nav-item ms-xl-auto">
+                                    <a
+                                        href="contact.html"
+                                        class="px-3 text-body-emphasis bg-body-secondary-hover border nav-link rounded-3 text-base leading-6 fw-semibold text-center"
+                                    >
+                                        Связаться с нами
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- header body -->
+        <div class="overflow-hidden py-9 py-xl-10 position-relative">
+            <img
+                src="./assets/img/bg/bg1.jpg"
+                class="position-absolute z-n1 top-0 h-100 w-100 object-fit-cover"
+                alt="Meeting"
+            />
+
+            <div
+                class="position-absolute z-n1 top-0 h-100 w-100 bg-dark"
+                style="
+                    opacity: 0.85;
+                    mix-blend-mode: multiply;
+                    filter: contrast(1.15) brightness(0.85);
+                "
+            ></div>
+
+            <div class="position-absolute z-0 top-0 h-100 w-100">
+                <div class="container h-100 d-flex align-items-center">
+                    <div
+                        class="max-w-2xl mx-auto mx-xl-0 text-center text-xl-start"
+                    >
+                        <h1
+                            class="m-0 mt-7 text-white tracking-tight text-6xl fw-bold"
+                            data-aos-delay="0"
+                            data-aos="fade"
+                            data-aos-duration="3000"
+                        >
+                            Блог
+                        </h1>
+                        <p
+                            class="m-0 mt-4 text-white text-lg leading-8"
+                            data-aos-delay="100"
+                            data-aos="fade"
+                            data-aos-duration="3000"
+                        >
+                            Узнайте, как развивать вашу компанию с помощью
+                            нашего экспертного совета по природным ресурсам.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overflow-hidden py-6 py-sm-7 py-xl-8">
+            <div class="container">
+                <div class="row gx-xl-5 justify-content-between">
+                    <div class="col-12 col-xl-12">
+                        <div
+                            class="row row-cols-1 row-cols-md-2 gy-5 gx-md-5 justify-content-center justify-content-xl-between"
+                        >
+                            <div
+                                class="col pt-5 pt-xl-4"
+                                data-aos-delay="0"
+                                data-aos="fade"
+                                data-aos-duration="3000"
+                            >
+                                <article
+                                    class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between"
+                                >
+                                    <div class="position-relative w-100">
+                                        <div
+                                            class="ratio"
+                                            style="--bs-aspect-ratio: 66.66%"
+                                        >
+                                            <img
+                                                src="./assets/img/bg/bg2.jpg"
+                                                class="object-fit-cover rounded-3"
+                                                alt="Blog image"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="mt-4 d-flex align-items-center column-gap-3 text-xs"
+                                    >
+                                        <time
+                                            datetime="2025-04-15"
+                                            class="text-body-tertiary"
+                                        >
+                                            15 апреля 2025
+                                        </time>
+                                        <a
+                                            href="javascript:;"
+                                            class="px-3 py-2 text-body-secondary bg-body-tertiary position-relative z-1 rounded-pill text-decoration-none fw-medium"
+                                        >
+                                            Горнорудная промышленность
+                                        </a>
+                                    </div>
+
+                                    <div class="position-relative">
+                                        <h3
+                                            class="m-0 mt-3 text-lg leading-6 fw-semibold"
+                                        >
+                                            <a
+                                                href="javascript:;"
+                                                class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link"
+                                            >
+                                                Извлечение редкоземельных
+                                                элементов из казахстанской земли
+                                            </a>
+                                        </h3>
+                                        <p
+                                            class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6"
+                                        >
+                                            Потенциал редкоземельных элементов
+                                            Казахстана и стратегическое значение
+                                            геологических исследований и добычи
+                                            в этой области.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div
+                                class="col pt-5 pt-xl-4"
+                                data-aos-delay="100"
+                                data-aos="fade"
+                                data-aos-duration="3000"
+                            >
+                                <article
+                                    class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between"
+                                >
+                                    <div class="position-relative w-100">
+                                        <div
+                                            class="ratio"
+                                            style="--bs-aspect-ratio: 66.66%"
+                                        >
+                                            <img
+                                                src="./assets/img/bg/bg3.jpg"
+                                                class="object-fit-cover rounded-3"
+                                                alt="Blog image"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="mt-4 d-flex align-items-center column-gap-3 text-xs"
+                                    >
+                                        <time
+                                            datetime="2025-04-15"
+                                            class="text-body-tertiary"
+                                        >
+                                            9 апреля 2025
+                                        </time>
+                                        <a
+                                            href="javascript:;"
+                                            class="px-3 py-2 text-body-secondary bg-body-tertiary position-relative z-1 rounded-pill text-decoration-none fw-medium"
+                                        >
+                                            Геологические исследования
+                                        </a>
+                                    </div>
+
+                                    <div class="position-relative">
+                                        <h3
+                                            class="m-0 mt-3 text-lg leading-6 fw-semibold"
+                                        >
+                                            <a
+                                                href="javascript:;"
+                                                class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link"
+                                            >
+                                                Открытие скрытых драгоценных
+                                                металлов Казахстана
+                                            </a>
+                                        </h3>
+                                        <p
+                                            class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6"
+                                        >
+                                            Исследование потенциала
+                                            геологического ландшафта Казахстана
+                                            для добычи драгоценных металлов и
+                                            редкоземельных ресурсов.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div
+                                class="col pt-5 pt-xl-4"
+                                data-aos-delay="0"
+                                data-aos="fade"
+                                data-aos-duration="3000"
+                            >
+                                <article
+                                    class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between"
+                                >
+                                    <div class="position-relative w-100">
+                                        <div
+                                            class="ratio"
+                                            style="--bs-aspect-ratio: 66.66%"
+                                        >
+                                            <img
+                                                src="./assets/img/bg/bg4.jpg"
+                                                class="object-fit-cover rounded-3"
+                                                alt="Blog image"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="mt-4 d-flex align-items-center column-gap-3 text-xs"
+                                    >
+                                        <time
+                                            datetime="2025-04-15"
+                                            class="text-body-tertiary"
+                                        >
+                                            3 апреля 2025
+                                        </time>
+                                        <a
+                                            href="javascript:;"
+                                            class="px-3 py-2 text-body-secondary bg-body-tertiary position-relative z-1 rounded-pill text-decoration-none fw-medium"
+                                        >
+                                            Природные ресурсы
+                                        </a>
+                                    </div>
+
+                                    <div class="position-relative">
+                                        <h3
+                                            class="m-0 mt-3 text-lg leading-6 fw-semibold"
+                                        >
+                                            <a
+                                                href="javascript:;"
+                                                class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link"
+                                            >
+                                                Использование минеральных
+                                                ресурсов Казахстана
+                                            </a>
+                                        </h3>
+                                        <p
+                                            class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6"
+                                        >
+                                            Анализ важности добычи и минеральных
+                                            ресурсов в экономике Казахстана и
+                                            перспективах этой отрасли в будущем.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div
+                                class="col pt-5 pt-xl-4"
+                                data-aos-delay="100"
+                                data-aos="fade"
+                                data-aos-duration="3000"
+                            >
+                                <article
+                                    class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between"
+                                >
+                                    <div class="position-relative w-100">
+                                        <div
+                                            class="ratio"
+                                            style="--bs-aspect-ratio: 66.66%"
+                                        >
+                                            <img
+                                                src="./assets/img/bg/bg5.jpg"
+                                                class="object-fit-cover rounded-3"
+                                                alt="Blog image"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="mt-4 d-flex align-items-center column-gap-3 text-xs"
+                                    >
+                                        <time
+                                            datetime="2025-04-15"
+                                            class="text-body-tertiary"
+                                        >
+                                            11 апреля 2025
+                                        </time>
+                                        <a
+                                            href="javascript:;"
+                                            class="px-3 py-2 text-body-secondary bg-body-tertiary position-relative z-1 rounded-pill text-decoration-none fw-medium"
+                                        >
+                                            Развитие горнодобывающей отрасли
+                                        </a>
+                                    </div>
+
+                                    <div class="position-relative">
+                                        <h3
+                                            class="m-0 mt-3 text-lg leading-6 fw-semibold"
+                                        >
+                                            <a
+                                                href="javascript:;"
+                                                class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link"
+                                            >
+                                                Будущее горнодобывающей
+                                                промышленности Казахстана
+                                            </a>
+                                        </h3>
+                                        <p
+                                            class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6"
+                                        >
+                                            Исследование устойчивости и
+                                            долгосрочных выгод добычи
+                                            редкоземельных ресурсов в
+                                            Казахстане.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="overflow-hidden py-6 py-sm-7 py-xl-8 bg-body-tertiary">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-12 col-xl-6">
+                        <div class="pb-3 max-w-lg position-relative">
+                            <form
+                                method="get"
+                                action="thanks.html"
+                                class="mc-embedded-subscribe-form"
+                            >
+                                <h2
+                                    class="text-body-emphasis leading-6 text-4xl tracking-tight fw-bold"
+                                    style="line-height: 35px"
+                                >
+                                    Подпишитесь на нашу рассылку.
+                                </h2>
+                                <p
+                                    class="m-0 mt-3 text-body-secondary text-lg leading-8"
+                                >
+                                    Узнайте больше о природных ресурсах
+                                    Казахстана, редкоземельных элементах и
+                                    перспективах их добычи.
+                                </p>
+
+                                <div
+                                    class="mt-4 mb-2 d-flex flex-column flex-sm-row w-100 gap-2 js-form-inputs"
+                                >
+                                    <label
+                                        for="emailSubscribe1"
+                                        class="visually-hidden"
+                                        >Email address</label
+                                    >
+                                    <input
+                                        type="email"
+                                        name="EMAIL"
+                                        id="emailSubscribe1"
+                                        class="form-control leading-6 text-sm max-w-xl"
+                                        placeholder="Введите ваш email"
+                                        required
+                                    />
+                                    <button
+                                        type="submit"
+                                        name="subscribe"
+                                        class="btn btn-primary text-white fw-semibold text-sm"
+                                    >
+                                        Подписаться
+                                    </button>
+                                </div>
+
+                                <div
+                                    style="position: absolute; left: -5000px"
+                                    aria-hidden="true"
+                                >
+                                    <input
+                                        type="text"
+                                        class="js-validate-robot"
+                                        name="b_a4752870f583bb49a02427b3c_143fa46c21"
+                                        tabindex="-1"
+                                        value=""
+                                    />
+                                </div>
+
+                                <!-- response -->
+                                <div class="js-subscribe-response"></div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-6">
+                        <div class="row row-cols-1 row-cols-sm-2 gx-3 gy-5">
+                            <div class="d-flex flex-column align-items-start">
+                                <div
+                                    class="p-2 bg-body-tertiary rounded-3 border"
+                                >
+                                    <svg
+                                        class="text-body-emphasis"
+                                        width="24"
+                                        height="24"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="m-0 mt-3 text-body-emphasis fw-semibold"
+                                >
+                                    Местоположение
+                                </div>
+                                <div
+                                    class="m-0 mt-2 text-body-secondary leading-7"
+                                >
+                                    ул.7, уч.142/49, мкр. Алгабас, Алматы,
+                                    Казахстан
+                                </div>
+                                <div
+                                    class="m-0 mt-2 text-body-secondary leading-7"
+                                >
+                                    +77273449556
+                                </div>
+                                <div
+                                    class="m-0 mt-2 text-body-secondary leading-7"
+                                >
+                                    kaz_rare_res@gmail.com
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column align-items-start">
+                                <div
+                                    class="p-2 bg-body-tertiary rounded-3 border"
+                                >
+                                    <svg
+                                        class="text-body-emphasis"
+                                        width="24"
+                                        height="24"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002"
+                                        />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="m-0 mt-3 text-body-emphasis fw-semibold"
+                                >
+                                    Без спама
+                                </div>
+                                <div
+                                    class="m-0 mt-2 text-body-secondary leading-7"
+                                >
+                                    Присоединяйтесь к нам, чтобы узнать больше о
+                                    перспективах добычи редкоземельных элементов
+                                    в Казахстане.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <hr class="my-6 text-body-emphasis opacity-10" />
+
+                <div
+                    class="d-flex flex-column flex-xl-row gap-5 justify-content-between align-items-xl-center"
+                >
+                    <div class="order-first order-xl-last">
+                        <ul
+                            class="nav row gy-4 gx-sm-4 row-cols-2 row-cols-sm-auto"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    href="index.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Главная
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="about.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    О нас
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="services.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Услуги
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="blog.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Блог
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="contact.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Связаться с нами
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="cookie-policy.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Политика cookie
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="privacy-policy.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Политика конфиденциальности
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="terms-of-use.html"
+                                    class="p-0 text-body-secondary nav-link leading-6 text-sm"
+                                >
+                                    Условия использования
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to top button -->
+        <button
+            type="button"
+            class="btn btn-primary btn-back-to-top rounded-circle justify-content-center align-items-center p-2 text-white"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-caret-up-fill"
+                viewBox="0 0 16 16"
+            >
+                <path
+                    d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"
+                />
+            </svg>
+        </button>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Политика использования cookies
+                </h2>
+            </div>
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies для обеспечения корректной
+                    работы и сбора анонимной статистики, связанной с природными
+                    ресурсами Казахстана, включая редкоземельные элементы,
+                    благородные металлы и горнодобывающую промышленность.
+                    Продолжая использовать сайт, вы соглашаетесь с
+                    использованием cookies в соответствии с нашей
+                    <a href="cookie-policy.html">политикой cookies</a>.
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Bootstrap JavaScript: Bundle with Popper -->
+        <script src="./assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/libraries/glide/glide.min.js"></script>
+        <script src="./assets/libraries/aos/aos.js"></script>
+        <script src="./assets/js/scripts.js"></script>
+        <script src="./assets/js/cookiebanner.js"></script>
+    </body>
+</html>
